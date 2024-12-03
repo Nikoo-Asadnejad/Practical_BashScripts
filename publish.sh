@@ -12,7 +12,7 @@ if [ $? -eq 0 ]; then
   echo "Files successfully zipped as $ZIP_FILE."
 
 
-  scp $ZIP_FILE $SERVER_USER@$SERVER_ADDRESS:$REMOTE_PATH
+  scp -P $SERVER_PORT $ZIP_FILE $SERVER_USER@$SERVER_ADDRESS:$REMOTE_PATH
 
   if [ $? -eq 0 ]; then
     echo "File successfully copied to $SERVER_USER@$SERVER_ADDRESS:$REMOTE_PATH."
