@@ -1,4 +1,15 @@
 #!/bin/bash
+# disk_usage_alert.sh
+#
+# Description:
+#   Monitors disk space and alerts when usage exceeds a specified percentage.
+#   Change Email value with your email.
+#
+# Usage:
+#   ./disk_usage_alert.sh
+#
+# Example:
+#   ./disk_usage_alert.sh
 
 THRESHOLD=80
 EMAIL="nikoo.a.14@gmail.com"
