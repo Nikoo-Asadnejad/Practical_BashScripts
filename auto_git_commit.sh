@@ -1,4 +1,14 @@
 #!/bin/bash
+# auto_git_commit.sh
+#
+# Description:
+#   Automatically commits and push all changes in the current Git repo.
+#
+# Usage:
+#   ./auto_git_commit.sh
+#
+# Example:
+#   ./auto_git_commit.sh
 
 MESSAGE=$1
 
