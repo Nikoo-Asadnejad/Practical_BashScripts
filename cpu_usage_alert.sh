@@ -1,4 +1,14 @@
 #!/bin/bash
+# cpu_usage_alert.sh
+#
+# Description:
+#   Sends an alert if CPU usage exceeds a defined threshold.
+#
+# Usage:
+#   ./cpu_usage_alert.sh
+#
+# Example:
+#   ./cpu_usage_alert.sh
 
 THRESHOLD=80
 
