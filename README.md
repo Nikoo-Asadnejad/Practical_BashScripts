@@ -5,6 +5,39 @@ This repository contains a collection of useful Bash scripts for Linux systems. 
 ranging from system maintenance to monitoring and automation tasks.
 Below is a description of each script along with instructions on how to use them.
 
+## 🔧 Scripts Overview
+
+| Script Name                     | Purpose                                                                                      |
+|----------------------------------|----------------------------------------------------------------------------------------------|
+| `auto_git_commit.sh`            | Automatically commits staged changes with a standardized commit message.                     |
+| `backup.sh`                     | Backs up a specified directory into a dated folder.                                          |
+| `cpu_usage_alert.sh`            | Monitors CPU usage and sends an alert (e.g., via email) when usage exceeds a threshold.     |
+| `disk_usage_alert.sh`          | Checks disk usage and alerts if it passes a set limit.                                      |
+| `find_top_cpu_processes.sh`    | Lists processes consuming the most CPU.                                                      |
+| `find_top_memory_processes.sh` | Lists processes consuming the most memory.                                                   |
+| `install_docker.sh`            | Automates Docker installation on the host.                                                   |
+| `monitor_uptime.sh`            | Records system uptime periodically (ideal via cron).                                         |
+| `parse_log.sh`                 | Extracts and summarizes key data from log files.                                             |
+| `publish.sh` & `publish.ps1`   | Automates publishing tasks; supports both Bash and PowerShell environments.                  |
+| `resize_image.sh`              | Resizes images to predefined dimensions.                                                     |
+| `send_email.sh`                | Sends an email with attachments or notifications.                                           |
+| `service_status_check.sh`      | Monitors and restarts a service if it’s down.                                               |
+| `system_update_cleanup.sh`     | Updates the system and cleans up unused packages.                                           |
+| `top_largest_files.sh`         | Identifies and lists the largest files in a directory tree.                                 |
+| `website_health_check.sh`      | Tests website availability and alerts on downtime.                                          |
+
+---
+
+## Ensure executables:
+```bash
+chmod +x *.sh
+```
+
+## Run:
+```bash
+./script_name.sh
+```
+
 ## 1. Backup Script (`backup.sh`)
 
 This script creates a backup of a specified directory and stores it in a backup directory with the current date.
